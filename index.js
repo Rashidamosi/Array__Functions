@@ -96,6 +96,13 @@ console.log(maxValue([-2, 2, 4, 5, 10, -4, -6]));
 //valTimesIndex([1,2,3]) // [0,2,6]
        //valTimesIndex([5,10,15]) // [0,10,30]
 
+       function valTimesIndex(array) {
+        result = array.map((value, index) => value * index );
+        return result;
+    };
+    
+    console.log(valTimesIndex([1, 2, 3]));
+
 
 
 
