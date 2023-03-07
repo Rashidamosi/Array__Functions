@@ -27,4 +27,33 @@
 
 
 // 2. Here is an array of languages: [‘C#’, ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them 
+// Perform this operation on them 
+// Add ‘Kotlin’ to the end of the array
+// Add ‘Java’ after ‘Ruby’
+// Remove the first item in the array
+// Add ’Scala’ and ‘Swift’ to the beginning of the array
+// Replace ‘PHP’ with ‘Go’ and ‘Rust’
 
+let lang = ['C#', 'JavaScript', 'Ruby','PHP', 'Python'];
+
+// Adding ‘Kotlin’ to the end of the array
+lang.splice(lang.length, 0, 'Kotlin');
+console.log(lang);
+
+// Adding ‘Java’ after ‘Ruby’
+lang.splice(3, 0, 'Java');
+console.log(lang);
+
+// Removing the first item in the array
+lang.splice(0, 1);
+console.log(lang);
+
+// Adding ’Scala’ and ‘Swift’ to the beginning of the array
+lang.splice(0, 0, 'Scala', 'Swift');
+console.log(lang);
+
+// Replacing ‘PHP’ with ‘Go’ and ‘Rust’
+lang.splice(5, 1, 'Go', 'Rust');
+console.log(lang);
+
+console.log(`The List of the available languages are: ${lang}`);
