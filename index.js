@@ -75,4 +75,27 @@ console.log(`The List of the available languages are: ${lang}`);
 // 4.Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
 //e.g., max([4, 5, 10, -2]) // maximum value is 10
 
+let maxValue = function(numbers) {
+    return Math.max(...numbers);  //Check this line
+};
+
+console.log(maxValue([-2, 2, 4, 5, 10, -4, -6]));
+
+
+// function largestOfFour(mainArray) {
+//     return mainArray.map(function(subArray) {
+//       ;
+//     });
+//   }
+//   largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+
+
+
+//5.Write a function called valTimesIndex which accepts an array of numbers and returns a new array with each value multiplied by the index it is at in the array:
+//e.g.
+//valTimesIndex([1,2,3]) // [0,2,6]
+       //valTimesIndex([5,10,15]) // [0,10,30]
+
+
+
 
