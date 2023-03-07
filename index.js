@@ -57,3 +57,22 @@ lang.splice(5, 1, 'Go', 'Rust');
 console.log(lang);
 
 console.log(`The List of the available languages are: ${lang}`);
+
+
+// 3.What will be the value of fruit after calling the function changeFruit?
+
+    let fruit = ['apple', 'mango', 'banana'];
+		function changeFruit( fruit ) {
+    			fruit[2] = "orange";
+    			return fruit;
+		}
+
+        console.log(changeFruit(fruit));
+
+//  Values are  ['apple', 'mango', 'orange']
+
+
+// 4.Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
+//e.g., max([4, 5, 10, -2]) // maximum value is 10
+
+
